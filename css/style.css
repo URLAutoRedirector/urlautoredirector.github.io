@@ -1,0 +1,130 @@
+html{
+  height: 100%;
+}
+body{
+  margin: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  color: #484848;
+  word-wrap: break-word;
+  text-align: center;
+  background-color: white;
+  height: 100%;
+}
+a{
+  text-decoration: none;
+  color: #ff5a5f;
+}
+a:hover{
+  text-decoration: underline;
+}
+nav{
+  color: #ff5a5f;
+  border-bottom: #ff5a5f solid 1px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.icon{
+  height: 48px;
+}
+.title{
+  font-size: 20px;
+}
+.menu{
+  display: flex;
+  margin-left: 10px;
+}
+.menu-item{
+  font-size: 16px;
+  padding-left: 20px;
+}
+.menu-active{
+  text-decoration: underline;
+}
+.container{
+  color: #484848;
+}
+.whole-page{
+  height: 100%;
+  border-bottom: 1px solid #ff5a5f;
+}
+.ext-name{
+  padding-top: 15%;
+  font-size: 48px;
+}
+.ext-desc{
+  font-size: 20px;
+  padding-bottom: 15%;
+}
+.install{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+.install-item{
+  padding: 10px;
+  font-size: 20px;
+  color: #ff5a5f;
+  border: 2px solid #ff5a5f;
+  border-radius: 10px;
+}
+.install-item:hover{
+  color: #ffffff;
+  background-color: #ff5a5f;
+}
+.install-chrome{
+}
+.install-manually{
+  margin-left: 10px;
+}
+.install a:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
+.project{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.review-title{
+  font-size: 48px;
+  margin-top: 20px;
+  height: 100px;
+  padding-top: 5%;
+}
+.reviews{
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+.review-item{
+  width: 20%;
+  height: 300px;
+  border: 2px solid #ff5a5f;
+  border-radius: 4px;
+  padding: 8px 12px 8px 12px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.review-comment{
+  height: 250px;
+  font-size: 16px;
+  font-style: italic;
+  text-align: left;
+}
+.review-author{
+  font-size: 16px;
+  font-weight: bold;
+}
+.review-jobtitle{
+  font-weight: normal;
+}
+footer{
+  margin-top: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  height: 50px;
+}
