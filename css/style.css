@@ -130,6 +130,15 @@ nav{
 .review-jobtitle{
   font-weight: normal;
 }
+.changelog{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 600px;
+}
+.changelog li{
+  font-size: 16px;
+}
 footer{
   margin-top: 20px;
   margin-right: 20px;
