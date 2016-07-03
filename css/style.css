@@ -68,21 +68,25 @@ nav{
 .install-item{
   padding: 10px;
   font-size: 20px;
-  color: #ff5a5f;
+  color: #ffffff;
+  background-color: #ff5a5f;
   border: 2px solid #ff5a5f;
   border-radius: 10px;
 }
 .install-item:hover{
-  color: #ffffff;
-  background-color: #ff5a5f;
+  background-color: #ffffff;
 }
 .install-chrome{
+  margin-right: 8px;
 }
 .install-manually{
-  margin-left: 10px;
+  margin-left: 8px;
+}
+.install a{
+  color: #ffffff;
 }
 .install a:hover{
-  color: #ffffff;
+  color: #ff5a5f;
   text-decoration: none;
 }
 .project{
@@ -104,7 +108,7 @@ nav{
 .review-item{
   width: 20%;
   height: 300px;
-  border: 2px solid #ff5a5f;
+  border: 1px solid #ff5a5f;
   border-radius: 4px;
   padding: 8px 12px 8px 12px;
   margin-left: 20px;
