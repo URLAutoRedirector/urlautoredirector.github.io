@@ -85,7 +85,7 @@ nav{
 .install a{
   color: #ffffff;
 }
-.install a:hover{
+.install-chrome:hover a,.install-manually:hover a{
   color: #ff5a5f;
   text-decoration: none;
 }
