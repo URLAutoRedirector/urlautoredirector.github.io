@@ -25,7 +25,6 @@ nav{
   display: flex;
   align-items: center;
   padding-left: 20px;
-  margin-bottom: 20px;
 }
 .icon{
   height: 48px;
@@ -50,6 +49,12 @@ nav{
 .whole-page{
   min-height: 100%;
   border-bottom: 1px solid #ff5a5f;
+}
+.ext-wall{
+  /*background-image: url(/images/5.pic.jpg);*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: center top;*/
+  margin-bottom: 20px; 
 }
 .ext-name{
   padding-top: 15%;
