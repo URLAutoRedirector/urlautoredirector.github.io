@@ -51,18 +51,23 @@ nav{
   border-bottom: 1px solid #ff5a5f;
 }
 .ext-wall{
-  /*background-image: url(/images/5.pic.jpg);*/
+  background-image: url(/images/bg.jpg);
   /*background-repeat: no-repeat;*/
-  /*background-position: center top;*/
-  margin-bottom: 20px; 
+  background-position: left 15%;
+  margin-bottom: 20px;
+  text-align: left;
+  padding-left: 10%;
 }
 .ext-name{
   padding-top: 15%;
   font-size: 48px;
+  color: #ff5a5f;
 }
 .ext-desc{
   font-size: 20px;
   padding-bottom: 15%;
+  color: #ff5a5f;
+  width: 400px;
 }
 .install{
   margin-left: auto;
