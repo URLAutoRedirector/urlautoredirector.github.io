@@ -1,0 +1,12 @@
+title:
+encoding: utf-8
+
+collections:
+  docs:
+    output: true
+
+exclude:
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - REAMDE.md

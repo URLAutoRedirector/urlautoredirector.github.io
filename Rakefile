@@ -6,6 +6,6 @@ task :init do
 end
 
 task :serve do
-  sh "bundle exec ruby serve.rb"
+  sh "bundle exec jekyll s"
 end
 

@@ -1,0 +1,16 @@
+      <nav>
+        <div class="icon">
+          <img src="/images/icon-small.png" alt="Icon of URL Auto Redirector">
+        </div>
+        <div class="title">
+          <a href="/">URL Auto Redirector</a>
+        </div>
+        <div class="menu">
+          <div class="menu-item{% if page.url == "/index.html" %}{{" menu-active"}}{% endif %}"><a href="/">Home</a></div>
+          <div class="menu-item{% if page.url == "/changelog.html" %}{{" menu-active"}}{% endif %}"><a href="/changelog.html">What's New</a></div>
+          <div class="menu-item"><a href="https://github.com/UrlAutoRedirector/UrlAutoRedirector/wiki">Docs</a></div>
+          <!-- <div class="menu-item{% if page.url == "/press.html" %}{{" menu-active"}}{% endif %}"><a href="/press.html">Press</div> -->
+          <div class="menu-item{% if page.url == "/about.html" %}{{" menu-active"}}{% endif %}"><a href="/about.html">About</a></div>
+          <div class="menu-item"><a href="https://github.com/UrlAutoRedirector/UrlAutoRedirector">GitHub</a></div>
+        </div>
+      </nav>
