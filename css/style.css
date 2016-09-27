@@ -127,6 +127,13 @@ nav{
   -o-text-overflow: ellipsis;
   overflow: hidden;
 }
+.review-large{
+  height: 480px;
+}
+.review-heading{
+  font-size: 24px;
+  text-align: center;
+}
 .review-comment{
   height: 250px;
   font-size: 16px;
