@@ -1,3 +1,13 @@
+- version: 1.2.7
+  changes:
+    - text: "Add two rules for jd.com"
+    - text: "Remove some debug log"
+- version: 1.2.6
+  changes:
+    - text: "Bugfix: unexpected comma"
+- version: 1.2.5
+  changes:
+    - text: "Remove useless files of `FontAwesome`"
 - version: 1.2.4
   changes:
     - text: "Bugfix"
