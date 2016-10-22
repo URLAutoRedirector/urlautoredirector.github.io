@@ -22,9 +22,14 @@ a:hover{
 nav{
   color: #ff5a5f;
   border-bottom: #ff5a5f solid 1px;
+  width: 100%;
+}
+.nav-container{
   display: flex;
   align-items: center;
-  padding-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
 }
 .icon{
   height: 48px;
@@ -44,19 +49,18 @@ nav{
   text-decoration: underline;
 }
 .container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
   color: #484848;
 }
 .whole-page{
-  min-height: 100%;
+  padding-bottom: 20px;
   border-bottom: 1px solid #ff5a5f;
 }
 .ext-wall{
-  background-image: url(/images/bg.jpg);
-  /*background-repeat: no-repeat;*/
-  background-position: left 15%;
   margin-bottom: 20px;
   text-align: left;
-  padding-left: 10%;
 }
 .ext-name{
   padding-top: 15%;
@@ -67,7 +71,6 @@ nav{
   font-size: 20px;
   padding-bottom: 15%;
   color: #ff5a5f;
-  width: 400px;
 }
 .install{
   margin-left: auto;
@@ -101,7 +104,6 @@ nav{
 }
 .project{
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 .review-title{
   font-size: 48px;
