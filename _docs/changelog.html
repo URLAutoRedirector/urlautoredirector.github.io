@@ -1,25 +1,19 @@
 ---
 layout: page
 title: What's New
+inline-title: Changelog
 permalink: changelog.html
 ---
-    <div class="container whole-page">
-      <div class="review-title">
-        Changelog
-      </div>
-      <div class="changelog">
-        {% for change in site.data.changelog %}
-          <h2>Version {{ change.version }}</h2>
-          <ul>
-            {% for log in change.changes %}
-              <li>
-                {{ log.text }}
-                {% if log.issue != nil %}
-                  <a href="https://github.com/UrlAutoRedirector/UrlAutoRedirector/issues/{{ log.issue }}">#{{ log.issue }}</a></li>
-                {% endif %}
-              </li>
-            {% endfor %}
-          </ul>
-        {% endfor %}
-      </div>
-    </div>
+{% for change in site.data.changelog %}
+  <h2>Version {{ change.version }}</h2>
+  <ul>
+    {% for log in change.changes %}
+      <li>
+        {{ log.text }}
+        {% if log.issue != nil %}
+          <a href="https://github.com/UrlAutoRedirector/UrlAutoRedirector/issues/{{ log.issue }}">#{{ log.issue }}</a></li>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
