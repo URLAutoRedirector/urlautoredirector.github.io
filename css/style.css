@@ -1,16 +1,27 @@
+* {
+  box-sizing: border-box;
+}
 html{
   height: 100%;
+  font-size: 14px;
+}
+@media (max-width: 48rem) {
+  html {
+    font-size: 12px;
+  }
 }
 body{
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial;
-  font-size: 14px;
   -webkit-font-smoothing: antialiased;
   color: #484848;
   word-wrap: break-word;
   text-align: center;
   background-color: white;
-  height: 100%;
+}
+body ::selection {
+  background-color: #333;
+  color: #fbfbfb;
 }
 a{
   text-decoration: none;
@@ -27,14 +38,15 @@ nav{
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
+  max-width: 48rem;
 }
 .menu{
-  display: flex;
+  width: 100%;
+  margin-top: 1.5rem;
 }
 .menu-item{
-  font-size: 16px;
-  padding-right: 20px;
+  font-size: 1rem;
+  padding-right: 1rem;
 }
 .menu-active{
   text-decoration: underline;
@@ -42,33 +54,54 @@ nav{
 .container{
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
+  max-width: 48rem;
   color: #484848;
 }
 .whole-page{
-  padding-bottom: 20px;
+  padding-left: .4rem;
+  padding-right: .4rem;
+  padding-bottom: 1.5rem;
 }
-.ext-wall{
-  margin-bottom: 20px;
+#ext-wall{
   text-align: center;
 }
-.ext-name{
-  padding-top: 15%;
-  font-size: 48px;
+#ext-name{
+  padding-top: 8rem;
+  font-size: 3.5rem;
 }
-.ext-desc{
-  font-size: 20px;
-  padding-bottom: 15%;
+#ext-desc{
+  font-size: 1.5rem;
+  padding-bottom: 6rem;
 }
-.install{
+#ext-detail{
+  font-size: 1rem;
+  padding-bottom: 6rem;
+  text-align: left;
+}
+@media (max-width: 48rem) {
+  #ext-name{
+    padding-top: 6rem;
+    font-size: 2.6rem;
+  }
+  #ext-desc{
+    font-size: 1.2rem;
+    padding-bottom: 4rem;
+  }
+  #ext-detail{
+    padding-bottom: 4rem;
+  }
+}
+#install{
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: center;
 }
 .install-item{
-  padding: 10px;
-  font-size: 20px;
+  margin-left: .4rem;
+  margin-right: .4rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
   color: #ffffff;
   background-color: #ff5a5f;
   border: 2px solid #ff5a5f;
@@ -77,43 +110,34 @@ nav{
 .install-item:hover{
   background-color: #ffffff;
 }
-.install-chrome{
-  margin-right: 8px;
-}
-.install-manually{
-  margin-left: 8px;
-}
-.install a{
+.install-item a{
   color: #ffffff;
 }
 .install-item:hover a{
   color: #ff5a5f;
   text-decoration: none;
 }
+@media (max-width: 48rem) {
+  #install{
+    display: block;
+  }
+  .install-item {
+    margin-bottom: 1rem;
+  }
+}
 .project{
-  margin-top: 20px;
-}
-.review-title{
-  font-size: 48px;
-  margin-top: 20px;
-  height: 100px;
-  padding-top: 5%;
-}
-.reviews{
-  padding-top: 10%;
+  margin-top: 2rem;
 }
 .review-item{
-  border-radius: 4px;
-  padding: 8px 12px 8px 12px;
   overflow: hidden;
 }
 .review-comment{
-  font-size: 16px;
+  font-size: 1.2rem;
   font-style: italic;
   text-align: left;
 }
 .review-author{
-  font-size: 16px;
+  font-size: 1.2rem;
   font-weight: bold;
   text-align: right;
 }
@@ -121,17 +145,26 @@ nav{
   font-weight: normal;
   text-align: right;
 }
-.changelog{
+@media (max-width: 48rem) {
+  .review-author{
+    text-align: center;
+  }
+  .review-jobtitle{
+    text-align: center;
+  }
+}
+.page-title{
+  font-size: 3.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.page-content{
   text-align: left;
 }
-.changelog li{
-  font-size: 16px;
-}
 footer{
-  margin-top: 20px;
-  margin-right: 20px;
-  font-size: 20px;
-  height: 50px;
+  margin-top: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 1.2rem;
 }
 /* inline codes */
 code.highlighter-rouge {

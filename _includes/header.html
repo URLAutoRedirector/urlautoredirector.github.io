@@ -1,13 +1,10 @@
       <nav>
         <div class="nav-container">
           <div class="menu">
-            <div class="menu-item"><a href="/">URL Auto Redirector</a></div>
-            <div class="menu-item">-</div>
-            <div class="menu-item{% if page.url == "/index.html" %}{{" menu-active"}}{% endif %}"><a href="/">Home</a></div>
-            <div class="menu-item{% if page.url == "/changelog.html" %}{{" menu-active"}}{% endif %}"><a href="/changelog.html">What's New</a></div>
-            <div class="menu-item{% if page.url == "/docs.html" %}{{" menu-active"}}{% endif %}"><a href="/docs.html">Docs</a></div>
-            <div class="menu-item{% if page.url == "/about.html" %}{{" menu-active"}}{% endif %}"><a href="/about.html">About</a></div>
-            <div class="menu-item"><a href="https://github.com/UrlAutoRedirector/UrlAutoRedirector">GitHub</a></div>
+            <span class="menu-item{% if page.url == "/index.html" %}{{" menu-active"}}{% endif %}"><a href="/">Home</a></span>
+            <span class="menu-item{% if page.url == "/docs.html" %}{{" menu-active"}}{% endif %}"><a href="/docs.html">Docs</a></span>
+            <span class="menu-item{% if page.url == "/changelog.html" %}{{" menu-active"}}{% endif %}"><a href="/changelog.html">Changelog</a></span>
+            <span class="menu-item{% if page.url == "/about.html" %}{{" menu-active"}}{% endif %}"><a href="/about.html">About</a></span>
           </div>
         </div>
       </nav>
