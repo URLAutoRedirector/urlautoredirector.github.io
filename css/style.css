@@ -21,8 +21,6 @@ a:hover{
 }
 nav{
   color: #ff5a5f;
-  border-bottom: #ff5a5f solid 1px;
-  width: 100%;
 }
 .nav-container{
   display: flex;
@@ -30,6 +28,7 @@ nav{
   margin-left: auto;
   margin-right: auto;
   width: 1024px;
+  border-bottom: #ff5a5f solid 1px;
 }
 .icon{
   height: 48px;
@@ -65,12 +64,10 @@ nav{
 .ext-name{
   padding-top: 15%;
   font-size: 48px;
-  color: #ff5a5f;
 }
 .ext-desc{
   font-size: 20px;
   padding-bottom: 15%;
-  color: #ff5a5f;
 }
 .install{
   margin-left: auto;
