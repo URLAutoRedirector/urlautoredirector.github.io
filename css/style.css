@@ -27,22 +27,14 @@ nav{
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  width: 1024px;
-  border-bottom: #ff5a5f solid 1px;
-}
-.icon{
-  height: 48px;
-}
-.title{
-  font-size: 20px;
+  width: 800px;
 }
 .menu{
   display: flex;
-  margin-left: 10px;
 }
 .menu-item{
   font-size: 16px;
-  padding-left: 20px;
+  padding-right: 20px;
 }
 .menu-active{
   text-decoration: underline;
@@ -50,12 +42,11 @@ nav{
 .container{
   margin-left: auto;
   margin-right: auto;
-  width: 1024px;
+  width: 800px;
   color: #484848;
 }
 .whole-page{
   padding-bottom: 20px;
-  border-bottom: 1px solid #ff5a5f;
 }
 .ext-wall{
   margin-bottom: 20px;
@@ -109,25 +100,14 @@ nav{
   padding-top: 5%;
 }
 .reviews{
-  padding-top: 5%;
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
+  padding-top: 10%;
 }
 .review-item{
-  width: 20%;
-  height: 300px;
-  border: 1px solid #ff5a5f;
   border-radius: 4px;
   padding: 8px 12px 8px 12px;
-  margin-left: 20px;
-  margin-right: 20px;
-  text-overflow: ellipsis;
-  -o-text-overflow: ellipsis;
   overflow: hidden;
 }
 .review-comment{
-  height: 250px;
   font-size: 16px;
   font-style: italic;
   text-align: left;
@@ -135,14 +115,14 @@ nav{
 .review-author{
   font-size: 16px;
   font-weight: bold;
+  text-align: right;
 }
 .review-jobtitle{
   font-weight: normal;
+  text-align: right;
 }
 .changelog{
   text-align: left;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 .changelog li{
   font-size: 16px;
@@ -152,4 +132,10 @@ footer{
   margin-right: 20px;
   font-size: 20px;
   height: 50px;
+}
+/* inline codes */
+code.highlighter-rouge {
+  background-color: #ddd;
+  border-radius: .2rem;
+  padding: .1rem .3rem .1rem .3rem;
 }
