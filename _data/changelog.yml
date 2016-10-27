@@ -1,3 +1,7 @@
+- version: 1.3.1
+  changes:
+    - text: "Add rule: douban note"
+    - text: "Reduce package size"
 - version: 1.3.0
   changes:
     - text: "Use `Sortable` instead of jQuery UI"
