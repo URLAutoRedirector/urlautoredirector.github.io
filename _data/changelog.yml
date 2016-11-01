@@ -1,6 +1,7 @@
 - version: 1.3.2
   changes:
     - text: "Add rules: eleme/nuomi movie/bilibili/acfun/taobao/qidian/yinyuetai"
+    - text: "New official website theme"
 - version: 1.3.1
   changes:
     - text: "Add rule: douban note"
