@@ -24,9 +24,7 @@ This software consists of voluntary contributions made by many individuals. For 
 
 ### Sortable
 
-Copyright 2013-2016 Lebedev Konstantin
-
-<ibnRubaXa@gmail.com>
+Copyright 2013-2016 Lebedev Konstantin.
 
 <http://rubaxa.github.io/Sortable/>
 
