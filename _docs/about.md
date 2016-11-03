@@ -22,12 +22,20 @@ Copyright jQuery Foundation and other contributors, <https://jquery.org/>
 
 This software consists of voluntary contributions made by many individuals. For exact contribution history, see the revision history available at <https://github.com/jquery/jquery>
 
+### Sortable
+
+Copyright 2013-2016 Lebedev Konstantin
+
+<ibnRubaXa@gmail.com>
+
+<http://rubaxa.github.io/Sortable/>
+
 ### FontAwesome
 
 The Font Awesome font is licensed under the SIL OFL 1.1: <http://scripts.sil.org/OFL>
 
 Font Awesome CSS, LESS, and Sass files are licensed under the MIT License.
 
-### Sortable
+### IcoMoon
 
-Copyright 2013-2016 Lebedev Konstantin <ibnRubaXa@gmail.com> <http://rubaxa.github.io/Sortable/>
+FontAwesome font used in the project is cropped and generated with [IcoMoon App](https://icomoon.io/app/).
