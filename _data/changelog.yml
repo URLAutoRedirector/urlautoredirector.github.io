@@ -1,3 +1,7 @@
+- version: 1.4.0
+  changes:
+    - text: "Replace origin FontAwesome with IcoMoon's, reduce package size: 576k -> 62k"
+      issue: 53
 - version: 1.3.2
   changes:
     - text: "Add rules: eleme/nuomi movie/bilibili/acfun/taobao/qidian/yinyuetai"
@@ -54,6 +58,7 @@
 - version: 1.1.0
   changes:
     - text: "i18n Implementation & zh_CN Locale"
+      issue: 35
     - text: "Optimisation: sync options via chrome.message"
     - text: "Optimisation: single copy of defaultRules"
     - text: "Performance improvement"
@@ -76,6 +81,7 @@
 - version: 0.0.6
   changes:
     - text: "Prompt `Redirected by URL Auto Redictor` badge on top of the page"
+      issue: 22
 - version: 0.0.5
   changes:
     - text: "First release version, fundamentally works"
