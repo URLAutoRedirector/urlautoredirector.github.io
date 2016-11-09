@@ -1,3 +1,7 @@
+- version: 1.6.0
+  changes:
+    - text: "Add option of notifications"
+      issue: 57
 - version: 1.5.0
   changes:
     - text: "Remove prompt badge on page and enable `chrome.notifications`"
