@@ -1,3 +1,7 @@
+- version: 1.6.1
+  changes:
+    - text: "Add rule: youku"
+      issue: 58
 - version: 1.6.0
   changes:
     - text: "Add option of notifications"
