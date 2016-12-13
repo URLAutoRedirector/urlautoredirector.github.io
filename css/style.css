@@ -32,13 +32,16 @@ a:hover{
 }
 nav{
   color: #ff5a5f;
+  width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
 .nav-container{
   display: flex;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 48rem;
+  padding-left: .4rem;
+  padding-right: .4rem;
 }
 .menu{
   width: 100%;
@@ -54,7 +57,7 @@ nav{
 .container{
   margin-left: auto;
   margin-right: auto;
-  max-width: 48rem;
+  width: 48rem;
   color: #484848;
 }
 .whole-page{
@@ -79,6 +82,12 @@ nav{
   text-align: left;
 }
 @media (max-width: 48rem) {
+  nav{
+    width: 100%;
+  }
+  .container{
+    width: 100%;
+  }
   #ext-name{
     padding-top: 6rem;
     font-size: 2.6rem;
@@ -167,8 +176,11 @@ footer{
   font-size: 1.2rem;
 }
 /* inline codes */
-code.highlighter-rouge {
+code.highlighter-rouge{
   background-color: #ddd;
   border-radius: .2rem;
   padding: .1rem .3rem .1rem .3rem;
+}
+img{
+  max-width: 100%;
 }
