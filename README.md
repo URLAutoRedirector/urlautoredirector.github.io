@@ -1,2 +1,3 @@
-# Official Website of URl Auto Redirector
-Source of UrlAutoRediretor's site.
+# Official Website of URL Auto Redirector
+
+Source of URLAutoRedirector.github.io
