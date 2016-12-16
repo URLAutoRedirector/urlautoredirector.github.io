@@ -1,3 +1,7 @@
+- version: 1.6.2
+  changes:
+    - text: "Add rule: taobao/lianjia"
+      issue: 59
 - version: 1.6.1
   changes:
     - text: "Add rule: youku"
