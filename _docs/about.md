@@ -12,8 +12,6 @@ Thanks @yanni4night for providing some frontend technological support.
 
 URL Auto Redirector is licensed under [MIT License](https://github.com/UrlAutoRedirector/UrlAutoRedirector/blob/master/LICENSE).
 
-Documentations are licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/).
-
 ##  Acknowledgements
 
 ### jQuery
