@@ -1,7 +1,11 @@
+- version: 1.6.4
+  changes:
+    - text: "Fix rule: jd"
+      issue: 63
 - version: 1.6.3
   changes:
     - text: "Add rule: autohome news"
-      issue: 59
+      issue: 60
     - text: "Bugfix: lianjia rule should work for https"
 - version: 1.6.2
   changes:
