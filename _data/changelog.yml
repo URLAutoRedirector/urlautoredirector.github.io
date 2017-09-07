@@ -1,3 +1,7 @@
+- version: 1.6.5
+  changes:
+    - text: "Add rule: you.163.com"
+      issue: 64
 - version: 1.6.4
   changes:
     - text: "Fix rule: jd"
