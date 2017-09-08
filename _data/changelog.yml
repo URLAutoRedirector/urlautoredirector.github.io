@@ -1,130 +1,132 @@
+---
 - version: 1.6.5
   changes:
-    - text: "Add rule: you.163.com"
-      issue: 64
+  - text: 'Add rule: you.163.com'
+    issue: 64
 - version: 1.6.4
   changes:
-    - text: "Fix rule: jd"
-      issue: 63
+  - text: 'Fix rule: jd'
+    issue: 63
 - version: 1.6.3
   changes:
-    - text: "Add rule: autohome news"
-      issue: 60
-    - text: "Bugfix: lianjia rule should work for https"
+  - text: 'Add rule: autohome news'
+    issue: 60
+  - text: 'Bugfix: lianjia rule should work for https'
 - version: 1.6.2
   changes:
-    - text: "Add rule: taobao/lianjia"
-      issue: 59
+  - text: 'Add rule: taobao/lianjia'
+    issue: 59
 - version: 1.6.1
   changes:
-    - text: "Add rule: youku"
-      issue: 58
+  - text: 'Add rule: youku'
+    issue: 58
 - version: 1.6.0
   changes:
-    - text: "Add option of notifications"
-      issue: 57
+  - text: Add option of notifications
+    issue: 57
 - version: 1.5.0
   changes:
-    - text: "Remove prompt badge on page and enable `chrome.notifications`"
-      issue: 55
-    - text: "Bugfix: iconfont resizes after click"
-      issue: 56
+  - text: Remove prompt badge on page and enable `chrome.notifications`
+    issue: 55
+  - text: 'Bugfix: iconfont resizes after click'
+    issue: 56
 - version: 1.4.0
   changes:
-    - text: "Replace origin FontAwesome with IcoMoon's, reduce package size: 576k -> 62k"
-      issue: 53
+  - text: 'Replace origin FontAwesome with IcoMoon''s, reduce package size: 576k ->
+      62k'
+    issue: 53
 - version: 1.3.2
   changes:
-    - text: "Add rules: eleme/nuomi movie/bilibili/acfun/taobao/qidian/yinyuetai"
-    - text: "New official website theme"
+  - text: 'Add rules: eleme/nuomi movie/bilibili/acfun/taobao/qidian/yinyuetai'
+  - text: New official website theme
 - version: 1.3.1
   changes:
-    - text: "Add rule: douban note"
-    - text: "Reduce package size"
+  - text: 'Add rule: douban note'
+  - text: Reduce package size
 - version: 1.3.0
   changes:
-    - text: "Use `Sortable` instead of jQuery UI"
-      issue: 50
+  - text: Use `Sortable` instead of jQuery UI
+    issue: 50
 - version: 1.2.7
   changes:
-    - text: "Add two rules for jd.com"
-    - text: "Remove some debug log"
+  - text: Add two rules for jd.com
+  - text: Remove some debug log
 - version: 1.2.6
   changes:
-    - text: "Bugfix: unexpected comma"
+  - text: 'Bugfix: unexpected comma'
 - version: 1.2.5
   changes:
-    - text: "Remove useless files of `FontAwesome`"
+  - text: Remove useless files of `FontAwesome`
 - version: 1.2.4
   changes:
-    - text: "Bugfix"
-      issue: 49
-    - text: "Add rules: ziroom/csdn/afwing"
+  - text: Bugfix
+    issue: 49
+  - text: 'Add rules: ziroom/csdn/afwing'
 - version: 1.2.3
   changes:
-    - text: "Add a new preset rule"
-      issue: 48
+  - text: Add a new preset rule
+    issue: 48
 - version: 1.2.2
   changes:
-    - text: "Bugfix"
-      issue: 44
+  - text: Bugfix
+    issue: 44
 - version: 1.2.1
   changes:
-    - text: "New rule in"
-      issue: 17
-    - text: "Remove Name in Options Page"
-      issue: 41
+  - text: New rule in
+    issue: 17
+  - text: Remove Name in Options Page
+    issue: 41
 - version: 1.2.0
   changes:
-    - text: "Options Page interaction optimisation"
-      issue: 36
-    - text: "BaiduToGoogle defaults disabled"
-      issue: 37
-    - text: "Add Chinese font"
-      issue: 38
+  - text: Options Page interaction optimisation
+    issue: 36
+  - text: BaiduToGoogle defaults disabled
+    issue: 37
+  - text: Add Chinese font
+    issue: 38
 - version: 1.1.1
   changes:
-    - text: "New official website"
-    - text: "Remove Weibo share button, because it is not Retina adapted"
+  - text: New official website
+  - text: Remove Weibo share button, because it is not Retina adapted
 - version: 1.1.0
   changes:
-    - text: "i18n Implementation & zh_CN Locale"
-      issue: 35
-    - text: "Optimisation: sync options via chrome.message"
-    - text: "Optimisation: single copy of defaultRules"
-    - text: "Performance improvement"
+  - text: i18n Implementation & zh_CN Locale
+    issue: 35
+  - text: 'Optimisation: sync options via chrome.message'
+  - text: 'Optimisation: single copy of defaultRules'
+  - text: Performance improvement
 - version: 1.0.0
   changes:
-    - text: "Auto-save options"
-    - text: "Increase z-index to make prompt message visible"
-    - text: "Available on Chrome WebStore"
+  - text: Auto-save options
+  - text: Increase z-index to make prompt message visible
+  - text: Available on Chrome WebStore
 - version: 0.0.9
   changes:
-    - text: "New icons"
-    - text: "Hints in Options"
-    - text: "Weibo Share"
+  - text: New icons
+  - text: Hints in Options
+  - text: Weibo Share
 - version: 0.0.8
   changes:
-    - text: "Import/Export rules file"
+  - text: Import/Export rules file
 - version: 0.0.7
   changes:
-    - text: "Re-designed UI of options page"
+  - text: Re-designed UI of options page
 - version: 0.0.6
   changes:
-    - text: "Prompt `Redirected by URL Auto Redictor` badge on top of the page"
-      issue: 22
+  - text: Prompt `Redirected by URL Auto Redictor` badge on top of the page
+    issue: 22
 - version: 0.0.5
   changes:
-    - text: "First release version, fundamentally works"
+  - text: First release version, fundamentally works
 - version: 0.0.4
   changes:
-    - text: "Add Twitter sharing button"
+  - text: Add Twitter sharing button
 - version: 0.0.3
   changes:
-    - text: "Full configuration page"
+  - text: Full configuration page
 - version: 0.0.2
   changes:
-    - text: "Add tab option support"
+  - text: Add tab option support
 - version: 0.0.1
   changes:
-    - text: "Demo for redirection"
+  - text: Demo for redirection

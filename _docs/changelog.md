@@ -14,6 +14,8 @@ permalink: changelog.html
         {{ log.text }}
         {% if log.issue != nil %}
           <a href="https://github.com/UrlAutoRedirector/UrlAutoRedirector/issues/{{ log.issue }}">#{{ log.issue }}</a>
+        {% elsif log.hash != nil %}
+          <a href="https://github.com/UrlAutoRedirector/UrlAutoRedirector/commit/{{ log.hash }}">#{{ log.hash }}</a>
         {% endif %}
       </li>
     {% endfor %}
