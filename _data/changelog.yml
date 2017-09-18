@@ -1,4 +1,10 @@
 ---
+- version: 1.6.6
+  changes:
+  - text: Add Zhibo8 rule
+    hash: 1b38d2a
+  - text: Add ThePaper rule
+    hash: 700ffb3
 - version: 1.6.5
   changes:
   - text: 'Add rule: you.163.com'
