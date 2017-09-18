@@ -4,7 +4,7 @@ title: About
 inline-title: About
 permalink: about.html
 ---
-Copyright &copy; URL Auto Redirector, 2016.
+Copyright &copy; URL Auto Redirector, 2017.
 
 Created and designed by [David Zhang](https://crispgm.com). Idea inspired by Albert Li.
 
@@ -22,7 +22,7 @@ This software consists of voluntary contributions made by many individuals. For 
 
 ### Sortable
 
-Copyright 2013-2016 Lebedev Konstantin.
+Copyright 2013-2017 Lebedev Konstantin.
 
 <http://rubaxa.github.io/Sortable/>
 
