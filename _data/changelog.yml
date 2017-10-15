@@ -1,4 +1,12 @@
 ---
+- version: 1.7.0
+  changes:
+  - text: Rename to URLAutoRedirector officially
+    hash: 94651cf
+  - text: Change font family
+    hash: 14db415
+  - text: Fix locale file format bugs
+    hash: b51bbc1
 - version: 1.6.6
   changes:
   - text: Add Zhibo8 rule
