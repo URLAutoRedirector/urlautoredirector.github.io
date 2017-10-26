@@ -1,4 +1,8 @@
 ---
+- version: 1.7.1
+  changes:
+  - text: 'Add bilibili live rule #67'
+    hash: f4c8a98
 - version: 1.7.0
   changes:
   - text: Rename to URLAutoRedirector officially
