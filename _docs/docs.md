@@ -28,11 +28,11 @@ Download at [__Chrome WebStore__](https://chrome.google.com/webstore/detail/mckf
 
 Redirection can be done in either new tab or current tab. For original design, redirection in new tab is reserved to allow users to see the chain of redirections.
 
-### Prompt Badge
+### Notification
 
-While a redirection happens, the redirected page will prompt a ```Redirected by URL Auto Redirector``` badge.
+While a redirection happens, it will send a `Redirected by URL Auto Redirector` notification.
 
-We are considering to allow users to decide whether allow the badge occurs or not.
+Notification badge is allowed to switch on or off in General Settings.
 
 ### Rules Setting
 
@@ -42,9 +42,10 @@ While ```RegExp``` is checked, URL Auto Redirector will parse ```Source``` and `
 
 Otherwise, it would be a whole-word matching.
 
-Hint: Protocols(e.g. ```http://```) cannot be omitted.
+Hint: Protocols(e.g. ```https://```) cannot be omitted.
 
 ### Preset Rules
+
 We have several preset rules as default. You might add your own rule in the option page.
 
 We encourage users to share rules by ```Export``` ```Import``` rules.
@@ -52,6 +53,7 @@ We encourage users to share rules by ```Export``` ```Import``` rules.
 And we receive orders for adding your awesome rules in preset rules list. See [contributing](#contributing).
 
 ### Compatibility
+
 Current version has been tested on Chrome 64-bit, version 44 through 51, both on Mac OS and Windows.
 
 Theoretically, Chrome for Linux should be okay.
