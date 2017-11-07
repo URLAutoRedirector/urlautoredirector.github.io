@@ -52,12 +52,6 @@ We encourage users to share rules by ```Export``` ```Import``` rules.
 
 And we receive orders for adding your awesome rules in preset rules list. See [contributing](#contributing).
 
-### Compatibility
-
-Current version has been tested on Chrome 64-bit, version 44 through 51, both on Mac OS and Windows.
-
-Theoretically, Chrome for Linux should be okay.
-
 ## Contributing
 
 * If you have a question about using URL Auto Redirector, start a discussion on [Gitter](https://gitter.im/UrlAutoRedirector/UrlAutoRedirector).
