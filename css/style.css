@@ -52,6 +52,9 @@ nav{
   font-size: 1rem;
   padding-right: 1rem;
 }
+.menu-uas a{
+  color: #329af0;
+}
 .menu-active{
   text-decoration: underline;
 }
