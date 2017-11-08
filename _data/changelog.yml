@@ -1,4 +1,8 @@
 ---
+- version: 1.7.2
+  changes:
+  - text: Introducing improved logo
+    hash: 0557eaa
 - version: 1.7.1
   changes:
   - text: 'Add bilibili live rule #67'
