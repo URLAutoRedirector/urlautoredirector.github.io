@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-html{
+html {
   height: 100%;
   font-size: 14px;
 }
@@ -10,7 +10,7 @@ html{
     font-size: 12px;
   }
 }
-body{
+body {
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial;
   -webkit-font-smoothing: antialiased;
@@ -24,94 +24,97 @@ body ::selection {
   background-color: #333;
   color: #fbfbfb;
 }
-a{
+a {
   text-decoration: none;
   color: #ff5a5f;
 }
-a:hover{
+a:hover {
   text-decoration: underline;
 }
-nav{
+nav {
   color: #ff5a5f;
   width: 48rem;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
 }
-.nav-container{
+.nav-container {
   display: flex;
   align-items: center;
   padding-left: .4rem;
   padding-right: .4rem;
 }
-.menu{
+.menu {
   width: 100%;
   margin-top: 1.5rem;
 }
-.menu-item{
+.menu-item {
   font-size: 1rem;
   padding-right: 1rem;
 }
-.menu-uas a{
+.menu-uas a {
   color: #329af0;
 }
-.menu-active{
+.menu-active {
   text-decoration: underline;
 }
-.container{
+.container {
   margin-left: auto;
   margin-right: auto;
   width: 48rem;
   color: #484848;
 }
-.whole-page{
+.whole-page {
   padding-left: .4rem;
   padding-right: .4rem;
   padding-bottom: 1.5rem;
 }
-#ext-wall{
+#ext-wall {
   text-align: center;
 }
-#ext-name{
+#ext-name {
   padding-top: 8rem;
   font-size: 3.5rem;
 }
-#ext-desc{
+#ext-desc {
   font-size: 1.5rem;
   padding-bottom: 6rem;
 }
-#ext-detail{
+#ext-detail {
   font-size: 1.2rem;
   padding-bottom: 6rem;
   text-align: left;
   line-height: 2.4rem;
 }
 @media (max-width: 48rem) {
-  nav{
+  nav {
     width: 100%;
   }
-  .container{
+  .container {
     width: 100%;
   }
-  #ext-name{
+  .menu-item {
+    padding-right: .4rem;
+  }
+  #ext-name {
     padding-top: 6rem;
     font-size: 2.6rem;
   }
-  #ext-desc{
+  #ext-desc {
     font-size: 1.2rem;
     padding-bottom: 4rem;
   }
-  #ext-detail{
+  #ext-detail {
     padding: 0 1rem 4rem;
   }
 }
-#install{
+#install {
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: center;
 }
-.install-item{
+.install-item {
   margin-left: .4rem;
   margin-right: .4rem;
   padding: 0.5rem;
@@ -121,10 +124,10 @@ nav{
   border: 2px solid #ff5a5f;
   border-radius: 10px;
 }
-.install-item:hover{
+.install-item:hover {
   background-color: #ffffff;
 }
-.install-item a{
+.install-item a {
   color: #ffffff;
 }
 .install-item:hover a{
@@ -132,72 +135,72 @@ nav{
   text-decoration: none;
 }
 @media (max-width: 48rem) {
-  #install{
+  #install {
     display: block;
   }
   .install-item {
     margin-bottom: 1rem;
   }
 }
-.project{
+.project {
   margin-top: 2rem;
 }
-.review-item{
+.review-item {
   margin: 3rem 0;
   overflow: hidden;
 }
 hr {
   width: 3rem;
 }
-.review-comment{
+.review-comment {
   font-size: 1.2rem;
   text-align: left;
   padding: 2rem 0;
 }
-.review-comment:first-letter{
+.review-comment:first-letter {
   text-transform: uppercase;
   font-size: 3rem;
   font-weight: bold;
 }
-.review-author{
+.review-author {
   font-size: 1.2rem;
   font-weight: bold;
   text-align: right;
 }
-.review-jobtitle{
+.review-jobtitle {
   font-weight: normal;
   text-align: right;
 }
 @media (max-width: 48rem) {
-  .review-comment{
+  .review-comment {
     padding: 0 1rem;
   }
-  .review-author{
+  .review-author {
     text-align: center;
     margin-top: 3rem;
   }
-  .review-jobtitle{
+  .review-jobtitle {
     text-align: center;
   }
 }
-.page-title{
+.page-title {
   font-size: 3.2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-.page-content{
+.page-content {
   text-align: left;
 }
-footer{
+footer {
   margin: 4rem 0;
   font-size: 1.2rem;
 }
 /* inline codes */
-code.highlighter-rouge{
+code.highlighter-rouge {
   background-color: #ddd;
   border-radius: .2rem;
   padding: .1rem .3rem .1rem .3rem;
 }
-img{
+img {
   max-width: 100%;
 }
