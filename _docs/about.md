@@ -4,7 +4,7 @@ title: About
 inline-title: About
 permalink: about.html
 ---
-Copyright &copy; URL Auto Redirector, 2017.
+Copyright &copy; URL Auto Redirector, {{ site.time | date: "%Y" }}.
 
 Created and designed by [David Zhang](https://crispgm.com). Idea inspired by Albert Li.
 
