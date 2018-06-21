@@ -55,6 +55,9 @@ nav {
 .menu-uas a {
   color: #329af0;
 }
+.menu-nmhx a {
+  color: #495057;
+}
 .menu-active {
   text-decoration: underline;
 }
