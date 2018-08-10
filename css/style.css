@@ -39,8 +39,6 @@ nav {
   text-align: left;
 }
 .nav-container {
-  display: flex;
-  align-items: center;
   padding-left: .4rem;
   padding-right: .4rem;
 }
@@ -57,6 +55,9 @@ nav {
 }
 .menu-nmhx a {
   color: #495057;
+}
+.menu-vscp a {
+  color: #7048e8;
 }
 .menu-active {
   text-decoration: underline;
