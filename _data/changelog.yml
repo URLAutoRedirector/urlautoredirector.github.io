@@ -1,4 +1,8 @@
 ---
+- version: 1.8.0
+  changes:
+  - text: 'Fix onInstall override options bug #68'
+    hash: 4cfafe2
 - version: 1.7.3
   changes:
   - text: Add autohome news rule
