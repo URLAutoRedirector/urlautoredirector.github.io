@@ -202,6 +202,10 @@ footer {
   margin: 4rem 0;
   font-size: 1.2rem;
 }
+
+.copyright {
+  margin: 0 0 2rem;
+}
 /* inline codes */
 code.highlighter-rouge {
   background-color: #ddd;

@@ -12,8 +12,6 @@ Thanks @yanni4night for providing some frontend technological support.
 
 URL Auto Redirector is licensed under [MIT License](https://github.com/UrlAutoRedirector/UrlAutoRedirector/blob/master/LICENSE).
 
-{% include buy-me-a-coffee.html %}
-
 ##  Acknowledgements
 
 ### jQuery
