@@ -1,4 +1,8 @@
 ---
+- version: 1.8.1
+  changes:
+  - text: Prevent from infinite redirection
+    hash: f399e3a
 - version: 1.8.0
   changes:
   - text: 'Fix onInstall override options bug #68'
