@@ -1,8 +1,12 @@
 ---
+- version: 1.9.1
+  changes:
+  - text: Add new rules
+    hash: 4b11111
 - version: 1.9.0
   changes:
   - text: Add hint to misconfiguration
-    hash: 'dde5f3b'
+    hash: dde5f3b
 - version: 1.8.2
   changes:
   - text: Fix export bug
