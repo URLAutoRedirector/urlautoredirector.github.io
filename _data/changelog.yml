@@ -1,4 +1,14 @@
 ---
+- version: 1.10.0
+  changes:
+  - text: "doc: prettier"
+    hash: 1f166cd
+  - text: "chore: change hint to notice"
+    hash: c2625e3
+  - text: "feat: make the option page wider"
+    hash: 3476fc9
+  - text: "feat: export beautified JSON"
+    hash: 6cfb9f3
 - version: 1.9.1
   changes:
   - text: Add new rules
