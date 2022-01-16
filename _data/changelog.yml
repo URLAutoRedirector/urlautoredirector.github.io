@@ -1,13 +1,25 @@
 ---
+- version: 1.12.0
+  changes:
+  - text: release
+    hash: b39186e
+  - text: 'Merge pull request #73 from guillaumeboehm/master'
+    hash: 02dad5b
+  - text: Clear list button added / button pointer cursor also added
+    hash: cacc0f3
+- version: 1.11.0
+  changes:
+  - text: 'feat: migrate to manifest v3'
+    hash: 036af0c
 - version: 1.10.0
   changes:
-  - text: "doc: prettier"
+  - text: 'doc: prettier'
     hash: 1f166cd
-  - text: "chore: change hint to notice"
+  - text: 'chore: change hint to notice'
     hash: c2625e3
-  - text: "feat: make the option page wider"
+  - text: 'feat: make the option page wider'
     hash: 3476fc9
-  - text: "feat: export beautified JSON"
+  - text: 'feat: export beautified JSON'
     hash: 6cfb9f3
 - version: 1.9.1
   changes:
