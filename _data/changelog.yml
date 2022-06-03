@@ -1,4 +1,10 @@
 ---
+- version: 1.13.0
+  changes:
+  - text: migrate to chrome.storage.sync
+    hash: afea9c6
+  - text: fix notification url
+    hash: 98e1fbf
 - version: 1.12.0
   changes:
   - text: release
