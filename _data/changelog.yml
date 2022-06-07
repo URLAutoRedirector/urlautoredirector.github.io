@@ -1,4 +1,8 @@
 ---
+- version: 1.14.0
+  changes:
+  - text: Switch to webrequest
+    issue: 77
 - version: 1.13.0
   changes:
   - text: migrate to chrome.storage.sync
