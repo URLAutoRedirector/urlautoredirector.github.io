@@ -1,4 +1,8 @@
 ---
+- version: 1.15.0
+  changes:
+  - text: 'fix: add service worker workaround'
+    hash: '3616914'
 - version: 1.14.0
   changes:
   - text: Switch to webrequest
