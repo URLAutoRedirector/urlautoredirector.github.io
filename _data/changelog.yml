@@ -1,4 +1,12 @@
 ---
+- version: 1.16.0
+  changes:
+  - text: 'chore: prettier'
+    hash: 40dfb79
+  - text: 'refactor: change log format'
+    hash: '6872998'
+  - text: 'fix: onInstalled ignore else statement'
+    hash: 6da50da
 - version: 1.15.0
   changes:
   - text: 'fix: add service worker workaround'
