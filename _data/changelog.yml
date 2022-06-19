@@ -1,4 +1,10 @@
 ---
+- version: 1.17.0
+  changes:
+  - text: 'feat: support both webRequest and tabs redirection'
+    hash: 74ff8a8
+  - text: 'fix: remove service worker workaround'
+    hash: ff823c2
 - version: 1.16.0
   changes:
   - text: 'chore: prettier'
