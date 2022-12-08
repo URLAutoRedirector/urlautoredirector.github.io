@@ -1,4 +1,12 @@
 ---
+- version: 1.18.0
+  changes:
+  - text: 'fix: URL'
+    hash: d3dbdf6
+  - text: 'feat: remove webRequest mode'
+    hash: dee7e3c
+  - text: 'fix: add more checks to prevent config disappearance'
+    hash: 9b63957
 - version: 1.17.0
   changes:
   - text: 'feat: support both webRequest and tabs redirection'
