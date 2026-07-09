@@ -1,4 +1,8 @@
 ---
+- version: 1.18.1
+  changes:
+  - text: fix when Open Link in New Tab
+    hash: 394bd32
 - version: 1.18.0
   changes:
   - text: 'fix: URL'
