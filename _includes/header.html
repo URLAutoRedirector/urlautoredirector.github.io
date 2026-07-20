@@ -3,10 +3,8 @@
           <div class="menu">
             <span class="menu-item{% if page.url == "/index.html" %}{{" menu-active"}}{% endif %}"><a href="/">URL Auto Redirector</a></span>
             <span class="menu-item menu-uas{% if page.url == "/URLAutoSplicer/" %}{{" menu-active"}}{% endif %}"><a href="/URLAutoSplicer/">URL Auto Splicer</a></span>
-            <span class="menu-item menu-vscp{% if page.url == "/vscode-context-popup/" %}{{" menu-active"}}{% endif %}"><a href="/vscode-context-popup/">VSCode Context Popup</a></span>
-            <span class="menu-item menu-nmhx{% if page.url == "/no-more-headline-x/" %}{{" menu-active"}}{% endif %}"><a href="/no-more-headline-x/">No More HeadlineX</a></span>
           </div>
-          {% if page.url != "/URLAutoSplicer/" and page.url != "/vscode-context-popup/" and page.url != "/no-more-headline-x/" %}
+          {% if page.url != "/URLAutoSplicer/" %}
           <div class="menu">
             <span class="menu-item"><a href="/">Home</a></span>
             <span class="menu-item"><a href="/docs.html">Docs</a></span>
