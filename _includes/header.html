@@ -1,7 +1,7 @@
       <nav>
         <div class="nav-container">
           <div class="menu">
-            <span class="menu-item{% if page.url == "/index.html" %}{{" menu-active"}}{% endif %}"><a href="/">URL Auto Redirector</a></span>
+            <span class="menu-item menu-uar{% if page.url == "/index.html" %}{{" menu-active"}}{% endif %}"><a href="/">URL Auto Redirector</a></span>
             <span class="menu-item menu-uas{% if page.url == "/URLAutoSplicer/" %}{{" menu-active"}}{% endif %}"><a href="/URLAutoSplicer/">URL Auto Splicer</a></span>
           </div>
           {% if page.url != "/URLAutoSplicer/" %}

@@ -11,6 +11,8 @@ html {
   }
 }
 body {
+  --theme-accent: #ff5a5f;
+  --theme-accent-contrast: #ffffff;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial;
   -webkit-font-smoothing: antialiased;
@@ -20,19 +22,22 @@ body {
   background-color: white;
   hyphens: auto;
 }
+body.theme-uas {
+  --theme-accent: #329af0;
+}
 body ::selection {
-  background-color: #333;
-  color: #fbfbfb;
+  background-color: var(--theme-accent);
+  color: var(--theme-accent-contrast);
 }
 a {
   text-decoration: none;
-  color: #ff5a5f;
+  color: var(--theme-accent);
 }
 a:hover {
   text-decoration: underline;
 }
 nav {
-  color: #ff5a5f;
+  color: var(--theme-accent);
   width: 48rem;
   margin-left: auto;
   margin-right: auto;
@@ -49,6 +54,9 @@ nav {
 .menu-item {
   font-size: 1rem;
   padding-right: 1rem;
+}
+.menu-uar a {
+  color: #ff5a5f;
 }
 .menu-uas a {
   color: #329af0;
@@ -125,19 +133,19 @@ nav {
   margin-right: .4rem;
   padding: 0.8rem;
   font-size: 1.5rem;
-  color: #ffffff;
-  background-color: #ff5a5f;
-  border: 2px solid #ff5a5f;
+  color: var(--theme-accent-contrast);
+  background-color: var(--theme-accent);
+  border: 2px solid var(--theme-accent);
   border-radius: 8px;
 }
 .install-item:hover {
-  background-color: #ffffff;
+  background-color: var(--theme-accent-contrast);
 }
 .install-item a {
-  color: #ffffff;
+  color: var(--theme-accent-contrast);
 }
 .install-item:hover a{
-  color: #ff5a5f;
+  color: var(--theme-accent);
   text-decoration: none;
 }
 @media (max-width: 48rem) {
