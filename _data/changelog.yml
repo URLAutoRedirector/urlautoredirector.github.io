@@ -1,4 +1,20 @@
 ---
+- version: 1.19.0
+  changes:
+    - text: "feat: improve logo readability [ci skip]"
+      hash: f0aa123
+    - text: "refactor: defaultOptions is moved outside"
+      hash: adac787
+    - text: "fix: preserve saved rules during storage initialization #78"
+      hash: 86a8ca6
+    - text: "test: add background service worker coverage"
+      hash: "7767200"
+    - text: "build: drop jquery deps"
+      hash: "7986962"
+    - text: "build: retrieve latest commits after last tag"
+      hash: 6f0abaa
+    - text: "build: rewrite release with js by AI"
+      hash: 9c39ec6
 - version: 1.18.1
   changes:
     - text: "feat: rewrite release with js by AI"
