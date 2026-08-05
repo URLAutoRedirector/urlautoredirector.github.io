@@ -29,7 +29,7 @@ We have only one rule (Google Search) as an example, which has the same reaction
 
 To add a new rule, you may specify a unique name and its URL Pattern. The URL Pattern should be a standard URL or a URL with `%UAS_PARAM%`.
 
-Only one parameter `%UAS_PARAM%` is available. 
+Only one parameter `%UAS_PARAM%` is available.
 
 Hint: Protocols (e.g. `https://`) cannot be omitted.
 
@@ -37,7 +37,5 @@ We encourage users to share rules by `Export` `Import` rules.
 
 ## Contributing
 
-* If you have a question about using URL Auto Redirector, start a discussion on [Gitter](https://gitter.im/UrlAutoRedirector/UrlAutoRedirector).
-* If you think you've found a bug with URL Auto Redirector, [open an issue](https://github.com/crispgm/UrlAutoRedirector/issues/new).
-* If you have useful rules in getting convenience by URL Auto Redictor, contribute to [awesome-rules](https://github.com/UrlAutoRedirector/awesome-rules).
+* If you think you've found a bug with URL Auto Splicer, [open an issue](https://github.com/URLAutoRedirector/URLAutoSplicer/issues/new).
 * PR(Pull Request) is welcomed.
