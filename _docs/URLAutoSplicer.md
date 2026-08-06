@@ -7,7 +7,9 @@ permalink: /URLAutoSplicer/
 
 ## Introduction
 
-URL Auto Splicer is a simple Chrome Extension, which redirects you to self-constructed URL instantly with context selection.
+URL Auto Splicer is a lightweight Chrome extension that lets you transform selected text into custom URLs with a single click.
+
+Create your own URL templates and access them directly from the context menu. Simply highlight any text on a webpage, right-click, and choose one of your predefined actions.
 
 The initial idea of URL Auto Splicer comes from my former tool [Tieba Service Caller](https://github.com/crisp-archive/chrome_tieba_service_caller). It allows developers to call API with context selection when they are developing and debugging.
 
